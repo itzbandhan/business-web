@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+/* font-family: 'Roboto', sans-serif; */
+}
+header{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(./images/fn-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  height: 10vh;
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 6px;
+}
+/* #395b64 */
+/* a5c9ca */
+nav ul {
+  display: flex;
+}
+nav ul li {
+  padding: 0 0.9rem;
+}
+nav ul li a{
+    /* color: #03001e; */
+    /* color: #395b64; */
+    color: #a5c9ca;
+    font-weight: 600;
+    font-size: 1.3rem;
+    transition: all ease-in .3s;
+}
+nav ul li a:hover{
+    color: #ec38bc;
+    
+}
+.logo{
+    font-size: 1.7rem;
+    color: #ec38bc;
+    letter-spacing: 8px;
+    transition: all ease-in .3s;
+}
+.logo:hover{
+    /* color: #03001e; */
+    color: #fdeff9;
+  }
+  #home{
+  color: #fdeff9;
+
+}
+.img-hero{
+  width: 45vh;
+}
+.about-section{
+  height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(./images/fn-bg-2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.abt{
+  display: flex;
+  height: auto;
+  padding: 2rem 3rem;
+  margin: 2% 2% 2% 2%;
+  background-color: rgb(203, 220, 203);
+}
+.abt p{
+  font-size: 1.25rem;
+}
+/* 
+
+#03001e
+#7303c0
+#ec38bc
+#fdeff9
+
+*/
